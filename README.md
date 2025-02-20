@@ -11,7 +11,7 @@ Bot Telegram ini menggunakan AI dengan TensorFlow.js untuk menganalisis tren tra
 - **Node.js** ➝ Backend utama.
 - **Telegraf.js** ➝ Framework untuk bot Telegram.
 - **@tensorflow/tfjs** ➝ Library AI untuk analisis tren.
-- **Binance API** ➝ Mengambil data harga crypto secara real-time.
+- **CMC(Coin Market Cap) API** ➝ Mengambil data harga crypto secara real-time.
 
 ## 🔧 Cara Instalasi
 1. **Clone repository:**
@@ -29,8 +29,8 @@ Bot Telegram ini menggunakan AI dengan TensorFlow.js untuk menganalisis tren tra
    Buat file `.env` dan tambahkan:
    ```sh
    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
-   BINANCE_API_KEY=your_binance_api_key
-   BINANCE_SECRET_KEY=your_binance_secret_key
+   CMC_API_KEY=your_api_key
+   CMC_SECRET_KEY=your_secret_key
    ```
 
 4. **Jalankan bot:**
